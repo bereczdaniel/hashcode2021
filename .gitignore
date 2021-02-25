@@ -1,0 +1,64 @@
+*.class
+*.log
+*.out
+
+# testing related stuff
+metastore_db/
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+shaded/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.idea/
+.DS_Store
+pl_out/
+pt_out/
+
+# Spark related
+emr/tmp/*
+emr/tata/*
+tata*
+tata*
+part*
+emr/tmp*
+**/*~
+**/*#
+**/*.old
+tmp/*
+**/*.tmp
+temp/*
+**/*.temp
+temp.*
+*.iml
+.ensime
+.ensime_cache
+
+# Emacs related
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+ensime.sbt
+
+# Vi related
+*.swo
+*.swp
+
+# Jenkins related
+build-scripts-common/
