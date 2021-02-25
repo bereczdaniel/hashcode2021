@@ -18,6 +18,7 @@ project/plugins/project/
 shaded/
 
 # Scala-IDE specific
+.metals/
 .scala_dependencies
 .worksheet
 .idea/

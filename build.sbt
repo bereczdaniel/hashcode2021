@@ -17,6 +17,7 @@ snapshotUrl := "Ekata Snapshots" at s"$artifactory/libs-snapshot-local;build.tim
 resolvers += "libs-release-local" at "https://artifactory.util.pages/artifactory/libs-release-local"
 
 libraryDependencies ++= Seq(
+  "com.github.nikita-volkov" % "sext" % "0.2.4",
   "org.apache.spark" %% "spark-core" % sparkVersion % "provided",
   "org.apache.spark" %% "spark-sql" % sparkVersion % "provided",
   "com.whitepages" %% "wp-data-commons" % "[10.4, 11)",
