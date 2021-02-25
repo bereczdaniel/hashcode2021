@@ -19,6 +19,8 @@ shaded/
 
 # Scala-IDE specific
 .metals/
+.bloop/
+project/.bloop/
 .scala_dependencies
 .worksheet
 .idea/
